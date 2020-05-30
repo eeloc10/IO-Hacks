@@ -125,6 +125,7 @@ people = generate_people(100,2,[30],2)
 #we set up the boilerplate for pygame here
 pygame.init()
 display = pygame.display.set_mode((dx, dy))
+pygame.display.set_caption("Pandemic Simulator")
 clock = pygame.time.Clock()
 
 
